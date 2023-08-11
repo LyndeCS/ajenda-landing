@@ -10,7 +10,7 @@ const Hero: React.FC = () => {
       <div className="mx-auto max-w-7xl px-4 flex flex-col items-center">
         
         {/* Header Text */}
-        <h1 className="text-4xl md:text-5xl py-4 font-semibold text-black mb-4 text-center">
+        <h1 className="text-5xl md:text-6xl py-4 font-semibold text-black mb-4 text-center">
           Easy Schedule,
           <br />
           Easy Life
