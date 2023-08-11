@@ -3,7 +3,7 @@ import { FiCheckCircle, FiClipboard, FiSmartphone, FiClock } from 'react-icons/f
 
 const Usp: React.FC = () => {
   return (
-    <section className="bg-gray-100 pt-12 pb-16">
+    <section className="pt-12 pb-16">
       <div className="mx-auto max-w-7xl px-4">
         <h2 className="text-4xl md:text-5xl font-semibold text-center mb-8">
           Take charge of your day
