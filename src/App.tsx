@@ -6,6 +6,7 @@ import Hero from './components/Hero';
 import Usp from './components/Usp';
 import Features from './components/Features';
 import Reviews from './components/Reviews';
+import CTA from './components/CTA';
 
 const App: React.FC = () => {
   return (
@@ -16,6 +17,7 @@ const App: React.FC = () => {
       <Usp />
       <Features />
       <Reviews />
+      <CTA />
       {/* Other content of your landing page */}
     </div>
   );

@@ -7,7 +7,7 @@ const Reviews: React.FC = () => {
         <h2 className="text-4xl md:text-5xl font-semibold text-center mb-16">Happy users, Happy life</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           {/* Review Card 1 */}
-          <div className="bg-white bg-opacity-50 p-6 rounded-md shadow-md">
+          <div className="bg-white bg-opacity-75 p-6 rounded-md shadow-md">
             <blockquote className="text-lg mb-4">
               "Before I started using this app, I was always scrambling to keep track of my to-do list. But now that I have it all in one place, I feel much more organized and in control. Plus, the reminders are a lifesaver!"
             </blockquote>
@@ -16,7 +16,7 @@ const Reviews: React.FC = () => {
           </div>
 
           {/* Review Card 2 */}
-          <div className="bg-white bg-opacity-50 p-6 rounded-md shadow-md">
+          <div className="bg-white bg-opacity-75 p-6 rounded-md shadow-md">
             <blockquote className="text-lg mb-4">
               "As a freelancer, I have to juggle multiple projects at once. This app has made it so much easier to stay on top of everything and make sure I'm not missing any deadlines. It's definitely helped me be more productive and efficient."
             </blockquote>
