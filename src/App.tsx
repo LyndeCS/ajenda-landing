@@ -7,6 +7,7 @@ import Usp from './components/Usp';
 import Features from './components/Features';
 import Reviews from './components/Reviews';
 import CTA from './components/CTA';
+import Footer from './components/Footer';
 
 const App: React.FC = () => {
   return (
@@ -18,6 +19,7 @@ const App: React.FC = () => {
       <Features />
       <Reviews />
       <CTA />
+      <Footer />
       {/* Other content of your landing page */}
     </div>
   );
