@@ -3,14 +3,39 @@ import heroImage from '../assets/hero.jpg'
 
 const Hero: React.FC = () => {
   return (
-    <section className="relative bg-white py-16">
-        {/* Background Splotch 
-      <div className="absolute top-0 left-0 w-full h-full bg-gradient-to-tr from-yellow-400 via-transparent to-transparent backdrop-blur-md opacity-50 z-0"></div>
-      */}
+    <section className="relative bg-white">
+        <div className="absolute inset-0 bg-opacity-[.02] bg-[#FF6700]"></div>
+<svg
+  className="absolute z-0"
+  xmlns="http://www.w3.org/2000/svg"
+  viewBox="0 0 200 200"
+  fill="none"
+>
+  {/* Teal Circle */}
+  <ellipse
+    cx="64"
+    cy="8"
+    rx="20"
+    ry="10"
+    z="-1"
+    fill="rgba(0, 190, 145, 0.5)" // Teal color with 50% transparency
+    filter="blur(10px)" // Apply a blur effect
+  />
+  {/* Orange Circle */}
+  <circle
+    cx="40"
+    cy="8"
+    r="15" // Reduced size to 1/4 of the original
+    fill="rgba(255, 103, 0, 0.3)" // Orange color with 50% transparency
+    filter="blur(10px)" // Apply a blur effect
+  />
+</svg>
+
+
       <div className="mx-auto max-w-7xl px-4 flex flex-col items-center">
         
         {/* Header Text */}
-        <h1 className="text-5xl md:text-6xl py-4 font-semibold text-black mb-4 text-center">
+        <h1 className="text-5xl md:text-6xl pt-32 pb-8 font-semibold text-black mb-4 text-center">
           Easy Schedule,
           <br />
           Easy Life
