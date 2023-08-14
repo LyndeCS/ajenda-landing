@@ -4,7 +4,7 @@ import heroImage from '../assets/hero.jpg'
 const Hero: React.FC = () => {
   return (
     <section className="relative bg-white">
-        <div className="absolute inset-0 bg-opacity-[.02] bg-[#FF6700]"></div>
+        <div className="absolute inset-0 bg-opacity-[.03] bg-[#FF6700]"></div>
 <svg
   className="absolute z-0"
   xmlns="http://www.w3.org/2000/svg"
