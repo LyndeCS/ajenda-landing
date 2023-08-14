@@ -4,7 +4,7 @@ import React from 'react';
 
 const Navbar: React.FC = () => {
   return (
-    <nav className="absolute w-full z-50 bg-white bg-opacity-50 py-4">
+    <nav className="absolute w-full z-50 bg-white bg-opacity-70 py-4 shadow-sm">
       <div className="mx-auto max-w-7xl px-4 flex justify-between items-center">
         {/* Left-justified App Name */}
         <div>
@@ -16,9 +16,9 @@ const Navbar: React.FC = () => {
           <a href="#" className="text-black font-medium hover:text-mint">Product</a>
           <a href="#" className="text-black font-medium hover:text-mint">Features</a>
           <a href="#" className="text-black font-medium hover:text-mint">Social</a>
-          <button className="rounded bg-mint text-white font-medium px-4 py-2 hover:bg-mintdarker">
+          <a href="https://ajenda.web.app/" className="bg-gradient-to-br from-mint to-mintdarker text-white font-medium px-4 py-2 hover:bg-gradient-to-br hover:from-mintdarker hover:to-mintdarkest rounded-lg">
             Try Ajenda
-          </button>
+          </a>
         </div>
       </div>
     </nav>

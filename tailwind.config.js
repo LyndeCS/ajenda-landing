@@ -7,6 +7,8 @@ export default {
 				sans: ["Roboto", "sans-serif"],
 			},
 			colors: {
+				aqua: "#02e0c2",
+				mintlighter: "#00d47b",
 				mint: "#00BE92",
 				mintdarker: "#00a17b",
 			},

@@ -49,9 +49,12 @@ const Hero: React.FC = () => {
         </p>
 
         {/* Big Button */}
-        <a href="https://ajenda.web.app/" className="inline-block bg-mint text-white px-12 py-4 rounded-lg font-medium text-2xl mb-6 hover:bg-mintdarker transition duration-300">
+        {/* <a href="https://ajenda.web.app/" className="bg-gradient-to-br from-mint to-mintdarker text-white px-12 py-4 rounded-lg font-medium text-2xl mb-6 hover:bg-mintdarker">
           Try Ajenda
-        </a>
+        </a> */}
+        <a href="https://ajenda.web.app/" className="bg-gradient-to-br from-aqua via-mint to-mintlighter text-white px-12 py-4 rounded-lg font-medium text-2xl mb-6 hover:bg-gradient-to-br hover:from-mint hover:to-mintlighter z-10">
+            Try Ajenda
+          </a>
 
         {/* Image */}
         <img
