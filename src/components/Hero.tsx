@@ -24,10 +24,7 @@ const Hero: React.FC = () => {
         </p>
 
         {/* Big Button */}
-        {/* <button className="rounded bg-mint text-white px-6 py-3 md:py-4 hover:bg-mintdarker mb-8">
-          Try Ajenda
-        </button> */}
-        <a href="#" className="inline-block bg-mint text-white px-12 py-4 rounded-lg font-medium text-2xl mb-6 hover:bg-mintdarker transition duration-300">
+        <a href="https://ajenda.web.app/" className="inline-block bg-mint text-white px-12 py-4 rounded-lg font-medium text-2xl mb-6 hover:bg-mintdarker transition duration-300">
           Try Ajenda
         </a>
 
@@ -35,7 +32,7 @@ const Hero: React.FC = () => {
         <img
           src={heroImage} // Placeholder image URL
           alt="App Screenshot"
-          className="max-w-full"
+          className="max-w-full rounded-lg shadow-full"
         />
       </div>
     </section>

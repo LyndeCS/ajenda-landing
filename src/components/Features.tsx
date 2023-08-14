@@ -13,17 +13,17 @@ const Features: React.FC = () => {
             <img
               src={featuresPic1}
               alt="Feature 1"
-              className="w-60 md:w-80 h-auto rounded-md shadow-xl transform -translate-x-6 -translate-y-6 absolute top-0 left-0"
+              className="w-[9.75rem] h-[14rem] md:w-[19.5rem] md:h-[28rem] rounded-xl shadow-full transform -translate-x-8 -translate-y-8 absolute top-0 left-0"
             />
             <img
               src={featuresPic2}
               alt="Feature 2"
-              className="w-60 md:w-80 h-auto rounded-md shadow-xl transform translate-x-6 translate-y-6 absolute top-0 left-0"
+              className="w-[9.75rem] h-[14rem] md:w-[19.5rem] md:h-[28rem] rounded-xl shadow-full transform translate-x-8 translate-y-8 absolute top-0 left-0"
             />
             <img
               src={featuresPic3}
               alt="Feature 3"
-              className="w-60 md:w-80 h-auto rounded-md shadow-xl transform translate-x-24 translate-y-24 absolute top-0 left-0"
+              className="w-[9.75rem] h-[14rem] md:w-[19.5rem] md:h-[28rem] rounded-xl shadow-full transform translate-x-24 translate-y-24 absolute top-0 left-0"
             />
           </div>
           <div className="pt-8 mt-4 md:mt-0 relative z-10 col-span-2 text-center">
