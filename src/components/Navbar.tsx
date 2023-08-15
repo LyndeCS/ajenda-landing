@@ -8,7 +8,7 @@ const Navbar: React.FC = () => {
       <div className="mx-auto max-w-7xl px-4 flex justify-between items-center">
         {/* Left-justified App Name */}
         <div>
-          <span className="text-xl font-semibold text-black">Ajenda</span>
+          <span className="text-2xl font-medium text-black">Ajenda</span>
         </div>
 
         {/* Right-justified Links */}
@@ -16,7 +16,7 @@ const Navbar: React.FC = () => {
           <a href="#" className="text-black font-medium hover:text-mint">Product</a>
           <a href="#" className="text-black font-medium hover:text-mint">Features</a>
           <a href="#" className="text-black font-medium hover:text-mint">Social</a>
-          <a href="https://ajenda.web.app/" className="bg-gradient-to-br from-mint to-mintdarker text-white font-medium px-4 py-2 hover:bg-gradient-to-br hover:from-mintdarker hover:to-mintdarkest rounded-lg">
+          <a href="https://ajenda.web.app/" className="bg-gradient-to-br from-aqua via-mint to-mintlighter text-white font-medium px-4 py-2 hover:bg-gradient-to-br hover:from-mintdarker hover:to-mintdarkest rounded-lg">
             Try Ajenda
           </a>
         </div>

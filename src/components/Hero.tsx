@@ -4,7 +4,7 @@ import heroImage from '../assets/hero.jpg'
 const Hero: React.FC = () => {
   return (
     <section className="relative bg-white">
-        <div className="absolute inset-0 bg-opacity-[.03] bg-[#FF6700]"></div>
+        <div className="absolute inset-0 bg-opacity-[.05] bg-mintdarker"></div>
 <svg
   className="absolute z-0"
   xmlns="http://www.w3.org/2000/svg"
@@ -14,7 +14,7 @@ const Hero: React.FC = () => {
   {/* Teal Circle */}
   <ellipse
     cx="64"
-    cy="8"
+    cy="10"
     rx="20"
     ry="10"
     z="-1"
@@ -24,7 +24,7 @@ const Hero: React.FC = () => {
   {/* Orange Circle */}
   <circle
     cx="40"
-    cy="8"
+    cy="10"
     r="15" // Reduced size to 1/4 of the original
     fill="rgba(255, 103, 0, 0.3)" // Orange color with 50% transparency
     filter="blur(10px)" // Apply a blur effect
@@ -32,7 +32,7 @@ const Hero: React.FC = () => {
 </svg>
 
 
-      <div className="mx-auto max-w-7xl px-4 flex flex-col items-center">
+      <div className="mx-auto max-w-7xl px-4 flex flex-col items-center pt-16">
         
         {/* Header Text */}
         <h1 className="text-5xl md:text-6xl pt-32 pb-8 font-semibold text-black mb-4 text-center">
@@ -52,7 +52,7 @@ const Hero: React.FC = () => {
         {/* <a href="https://ajenda.web.app/" className="bg-gradient-to-br from-mint to-mintdarker text-white px-12 py-4 rounded-lg font-medium text-2xl mb-6 hover:bg-mintdarker">
           Try Ajenda
         </a> */}
-        <a href="https://ajenda.web.app/" className="bg-gradient-to-br from-aqua via-mint to-mintlighter text-white px-12 py-4 rounded-lg font-medium text-2xl mb-6 hover:bg-gradient-to-br hover:from-mint hover:to-mintlighter z-10">
+        <a href="https://ajenda.web.app/" className="bg-gradient-to-br from-aqua via-mint to-mintlighter text-white px-12 py-4 rounded-lg font-medium text-2xl mb-6 shadow-lg border-[1px] border-mint hover:bg-gradient-to-br hover:from-mint hover:via-mintdarker hover:to-mintlighter hover:shadow-xl z-10">
             Try Ajenda
           </a>
 
