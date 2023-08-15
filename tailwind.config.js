@@ -14,6 +14,7 @@ export default {
 			},
 			boxShadow: {
 				full: "0 0 10px 2px rgb(0 0 0 / 0.1), 0 0 20px 5px rgb(0 0 0 / 0.1)",
+				fuller: "0 10px 50px rgba(0, 0, 0, 0.5)",
 			},
 		},
 	},

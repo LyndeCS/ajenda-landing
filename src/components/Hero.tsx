@@ -3,8 +3,8 @@ import heroImage from '../assets/hero.jpg'
 
 const Hero: React.FC = () => {
   return (
-    <section className="relative bg-white">
-        <div className="absolute inset-0 bg-opacity-[.05] bg-mintdarker"></div>
+    <section className="relative bg-gradient-to-b from-teal-50 to-white">
+        
 <svg
   className="absolute z-0"
   xmlns="http://www.w3.org/2000/svg"
@@ -18,49 +18,47 @@ const Hero: React.FC = () => {
     rx="20"
     ry="10"
     z="-1"
-    fill="rgba(0, 190, 145, 0.5)" // Teal color with 50% transparency
-    filter="blur(10px)" // Apply a blur effect
+    fill="rgba(0, 190, 145, 0.5)"
+    filter="blur(10px)"
   />
   {/* Orange Circle */}
   <circle
     cx="40"
     cy="10"
-    r="15" // Reduced size to 1/4 of the original
-    fill="rgba(255, 103, 0, 0.3)" // Orange color with 50% transparency
-    filter="blur(10px)" // Apply a blur effect
+    r="15"
+    z="-1"
+    fill="rgba(255, 103, 0, 0.3)"
+    filter="blur(10px)"
   />
 </svg>
 
 
-      <div className="mx-auto max-w-7xl px-4 flex flex-col items-center pt-16">
+      <div className="mx-auto max-w-7xl px-4 flex flex-col items-center pt-28">
         
         {/* Header Text */}
-        <h1 className="text-5xl md:text-6xl pt-32 pb-8 font-semibold text-black mb-4 text-center">
+        <h1 className="text-5xl md:text-7xl pt-32 pb-8 font-extrabold text-black mb-4 text-center">
           Easy Schedule,
           <br />
           Easy Life
         </h1>
 
         {/* Description Text */}
-        <p className="text-lg md:text-xl text-gray-600 text-center mb-8">
+        <p className="text-xl md:text-2xl text-gray-600 text-center mb-20">
           Simplify your life with Ajenda,
-          <br /> {/* Hide on small screens */}
+          <br />
           the key to stress-free task and schedule management
         </p>
 
         {/* Big Button */}
-        {/* <a href="https://ajenda.web.app/" className="bg-gradient-to-br from-mint to-mintdarker text-white px-12 py-4 rounded-lg font-medium text-2xl mb-6 hover:bg-mintdarker">
-          Try Ajenda
-        </a> */}
-        <a href="https://ajenda.web.app/" className="bg-gradient-to-br from-aqua via-mint to-mintlighter text-white px-12 py-4 rounded-lg font-medium text-2xl mb-6 shadow-lg border-[1px] border-mint hover:bg-gradient-to-br hover:from-mint hover:via-mintdarker hover:to-mintlighter hover:shadow-xl z-10">
+        <a href="https://ajenda.web.app/" className="bg-gradient-to-br from-aqua via-mint to-mintlighter text-white px-12 py-4 rounded-lg font-medium text-2xl mb-20 shadow-lg border-[1px] border-mint hover:bg-gradient-to-br hover:from-mint hover:via-mintdarker hover:to-mintlighter hover:shadow-xl z-10">
             Try Ajenda
           </a>
 
         {/* Image */}
         <img
-          src={heroImage} // Placeholder image URL
+          src={heroImage}
           alt="App Screenshot"
-          className="max-w-full rounded-lg shadow-full"
+          className="max-w-full rounded-lg shadow-fuller"
         />
       </div>
     </section>

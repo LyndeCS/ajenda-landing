@@ -5,7 +5,7 @@ import featuresPic3 from '../assets/features3.jpg';
 
 const Features: React.FC = () => {
   return (
-    <section className="py-16">
+    <section className="py-16 bg-gradient-to-b from-white to-orange-50">
       <div className="mx-auto max-w-7xl px-4">
         <h2 className="text-black text-2xl mb-12 text-center">We believe in building easy...</h2>
         <div className="bg-gray-100 rounded relative grid grid-cols-3">
