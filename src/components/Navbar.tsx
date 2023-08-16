@@ -13,9 +13,9 @@ const Navbar: React.FC = () => {
 
         {/* Right-justified Links */}
         <div className="space-x-8">
-          <a href="#" className="text-black font-medium hover:text-mint">Product</a>
-          <a href="#" className="text-black font-medium hover:text-mint">Features</a>
-          <a href="#" className="text-black font-medium hover:text-mint">Reviews</a>
+          <a href="#product-section" className="text-black font-medium hover:text-mint">Product</a>
+          <a href="#features-section" className="text-black font-medium hover:text-mint">Features</a>
+          <a href="#reviews-section" className="text-black font-medium hover:text-mint">Reviews</a>
           <a href="https://ajenda.web.app/" className="bg-gradient-to-br from-aqua via-mint to-mintlighter text-white font-medium px-4 py-2 border-[1px] border-mint hover:bg-gradient-to-br hover:from-mint hover:via-mintdarker hover:to-mintlighter hover:shadow rounded-lg">
             Try Ajenda
           </a>

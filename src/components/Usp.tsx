@@ -5,7 +5,7 @@ const Usp: React.FC = () => {
   return (
     <section className="mt-36 mb-36">
       <div className="mx-auto max-w-7xl px-4">
-        <h2 className="text-5xl md:text-6xl font-extrabold text-center my-32">
+        <h2 className="text-5xl md:text-6xl font-extrabold text-center mt-32 mb-24">
           Take charge of your day
         </h2>
         <div className="grid grid-cols-2 gap-16">

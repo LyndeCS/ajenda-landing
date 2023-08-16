@@ -50,7 +50,7 @@ const Hero: React.FC = () => {
         </p>
 
         {/* Big Button */}
-        <a href="https://ajenda.web.app/" className="bg-gradient-to-br from-aqua via-mint to-mintlighter text-white px-12 py-4 rounded-lg font-medium text-2xl mb-20 shadow-lg border-[1px] border-mint hover:bg-gradient-to-br hover:from-mint hover:via-mintdarker hover:to-mintlighter hover:shadow-xl z-10">
+        <a href="https://ajenda.web.app/" id="product-section" className="bg-gradient-to-br from-aqua via-mint to-mintlighter text-white px-12 py-4 rounded-lg font-medium text-2xl mb-20 shadow-lg border-[1px] border-mint hover:bg-gradient-to-br hover:from-mint hover:via-mintdarker hover:to-mintlighter hover:shadow-xl z-10">
             Try Ajenda
           </a>
 
