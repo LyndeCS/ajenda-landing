@@ -3,9 +3,9 @@ import heroImage from '../assets/hero.jpg'
 
 const Hero: React.FC = () => {
   return (
-    <section className="relative bg-gradient-to-b from-teal-50 to-white">
-        
+    <section className="bg-gradient-to-b from-teal-50 to-white z-10">
 <svg
+
   className="absolute z-0"
   xmlns="http://www.w3.org/2000/svg"
   viewBox="0 0 200 200"
@@ -32,18 +32,17 @@ const Hero: React.FC = () => {
   />
 </svg>
 
-
-      <div className="mx-auto max-w-7xl px-4 flex flex-col items-center pt-28">
+      <div className="mx-auto max-w-7xl px-4 flex flex-col items-center pt-28 z-10">
         
         {/* Header Text */}
-        <h1 className="text-5xl md:text-7xl pt-32 pb-8 font-extrabold text-black mb-4 text-center">
+        <h1 className="text-5xl md:text-7xl pt-32 pb-8 font-extrabold text-black mb-4 text-center z-10">
           Easy Schedule,
           <br />
           Easy Life
         </h1>
 
         {/* Description Text */}
-        <p className="text-xl md:text-2xl text-gray-600 text-center mb-20">
+        <p className="text-xl md:text-2xl text-gray-600 text-center mb-20 z-10">
           Simplify your life with Ajenda,
           <br />
           the key to stress-free task and schedule management
