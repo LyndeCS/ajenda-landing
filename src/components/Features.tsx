@@ -7,7 +7,7 @@ const Features: React.FC = () => {
   return (
     <section id="features-section" className="py-16 bg-gradient-to-b from-white to-orange-50">
       <div className="mx-auto max-w-7xl px-4">
-        <h2 className="text-5xl md:text-6xl font-extrabold mb-24 text-center">Stay organized across devices</h2>
+        <h2 className="text-4xl md:text-6xl font-extrabold mb-24 text-center">Stay organized across devices</h2>
         <div className="bg-white border rounded-xl relative grid grid-cols-3">
           <div className="md:relative">
             <img

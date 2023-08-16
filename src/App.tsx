@@ -1,5 +1,3 @@
-// src/App.tsx
-
 import React from 'react';
 import Navbar from './components/Navbar';
 import Hero from './components/Hero';
@@ -12,7 +10,6 @@ import Footer from './components/Footer';
 const App: React.FC = () => {
   return (
     <div>
-      {/* Navbar Component */}
       <Navbar />
       <Hero />
       <Usp />
@@ -20,7 +17,6 @@ const App: React.FC = () => {
       <Reviews />
       <CTA />
       <Footer />
-      {/* Other content of your landing page */}
     </div>
   );
 };

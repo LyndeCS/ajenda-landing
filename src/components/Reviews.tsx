@@ -8,8 +8,8 @@ const Reviews: React.FC = () => {
   return (
     <section id="reviews-section" className="relative bg-gradient-to-b from-orange-50 to-white">
       <div className="mx-auto max-w-7xl px-4">
-        <h2 className="text-5xl md:text-6xl font-semibold text-center pt-36 pb-24">Happy users, Happy life</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-y-24 gap-x-24">
+        <h2 className="text-5xl md:text-6xl font-semibold text-center py-10 md:pt-36 md:pb-24">Happy users, Happy life</h2>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-y-24 md:gap-x-24">
           {/* Review Card 1 */}
           <div className="bg-white bg-opacity-100 p-6 rounded-md shadow-full z-10">
             <blockquote className="text-lg font-bold mb-4">
