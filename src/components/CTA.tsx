@@ -4,7 +4,7 @@ import GooglePlay from '../assets/google-play.svg'; // Provide the correct image
 
 const CTA: React.FC = () => {
   return (
-    <section className="py-24 md:pt-36 md:pb-24 text-center">
+    <section className="py-16 md:pt-36 md:pb-24 text-center">
       <div className="mx-auto max-w-7xl px-4">
         <h2 className="text-4xl md:text-5xl font-semibold text-center mb-8">Get started today <br /> and simplify your life</h2>
         <a href="https://ajenda.web.app/" className="inline-block bg-gradient-to-br from-aqua via-mint to-mintlighter text-white px-12 py-4 rounded-lg font-medium text-2xl hover:bg-gradient-to-br hover:from-mint hover:via-mintdarker  hover:to-mintlighter shadow-lg border-[1px] border-mint z-10">
