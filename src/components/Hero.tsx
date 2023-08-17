@@ -5,7 +5,7 @@ const Hero: React.FC = () => {
   return (
     <section className="bg-gradient-to-b from-teal-50 to-white z-10">
       <svg
-        className="absolute z-0"
+        className="absolute z-0 max-w-7xl max-h-7xl"
         xmlns="http://www.w3.org/2000/svg"
         viewBox="0 0 200 200"
         fill="none"
